@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h4 {
+  color: var(--text-color);
+}
+
+
+.color-name-container{
+  color: var(--text-color)
+}
