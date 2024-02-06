@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   const [hexColor, setHexColor] = useState("#fff");
   const [rgbColor, setRgbColor] = useState("#fff");
-  const [btnColor, setBtnColor] = useState("#fff");
+  const [btnColor, setBtnColor] = useState("#aaaaaa");
   const [txtColor, setTxtColor] = useState("#fff");
 
   useEffect(() => {
