@@ -1,7 +1,12 @@
 import PropTypes from "prop-types";
 import chroma from "chroma-js";
 
-function ColorButton({ setHexColor, setRgbColor, setBtnColor, setTxtColor }) {
+function ColorButton({
+  setHexColor,
+  setRgbColor,
+  setBtnColor,
+  setTxtColor,
+}) {
   const generateColor = () => {
     const color = Math.floor(Math.random() * 16777215)
       .toString(16)
@@ -23,6 +28,7 @@ function ColorButton({ setHexColor, setRgbColor, setBtnColor, setTxtColor }) {
         .brighten()
         .hex()
     );
+
   };
 
   return (
@@ -36,7 +42,8 @@ ColorButton.propTypes = {
   setHexColor: PropTypes.func,
   setRgbColor: PropTypes.func,
   setBtnColor: PropTypes.func,
-  setTxtColor: PropTypes.func
+  setTxtColor: PropTypes.func,
+  setColorName: PropTypes.func,
 };
 
 export default ColorButton;

@@ -1,6 +1,4 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
@@ -13,7 +11,36 @@ h4 {
   color: var(--text-color);
 }
 
+.color-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
 
-.color-name-container{
-  color: var(--text-color)
+.colorBox {
+  flex-grow: 1;
+}
+
+.color-name-container {
+  color: var(--text-color);
+  padding: 0px 0px 25px 0px;
+}
+
+#color1 {
+  background-color: var(--color-1);
+}
+
+#color2 {
+  background-color: var(--color-2);
+}
+
+#color3 {
+  background-color:var(--color-3);
+}
+
+#color4 {
+  background-color:var(--color-4);
 }
